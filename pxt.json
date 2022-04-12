@@ -1,0 +1,39 @@
+{
+    "name": "防災遊戲",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "sprite-scaling": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "darts": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.22",
+        "tag": "v1.8.22",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/6017af228c87817006b555668c65933bf3cbff4c",
+        "target": "1.8.22",
+        "pxt": "7.4.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
